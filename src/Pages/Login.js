@@ -23,13 +23,13 @@ export default function Login() {
                     <div class='col1'>
                         <label><h6>First Name</h6></label>
                         <div className='userInput'>
-                            <input placeholder='First Name' type='name'/>
+                            <input placeholder='First Name' type='name' required/>
                         </div>
                     </div>
                     <div class='col1'>
                         <label><h6>Last Name</h6></label>
                         <div className='userInput'>
-                            <input placeholder='Last Name' type='name'/>
+                            <input placeholder='Last Name' type='name' required/>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ export default function Login() {
                     <div class='col1'>
                         <label><h6>Date of birth</h6></label>
                         <div className='userInput'>
-                            <input placeholder='' type='date'/>
+                            <input placeholder='' type='date' required/>
                         </div>
                     </div>
                     <div class='col1'>
@@ -58,7 +58,7 @@ export default function Login() {
                 
                 <div style={{textAlign:'center'}}>
                     <Link to={`/Dashboard/?gender=${gender==0?"m":'f'}`}>
-                        <button className='submit'>Start gaming session</button>
+                        <button className='submit' type='submit'>Start gaming session</button>
                     </Link>
                 </div>
                 

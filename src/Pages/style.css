@@ -90,6 +90,22 @@
     margin-top : 3vw;
     font-weight: bold;
 }
+@media  screen and (max-width : 900px){
+    .form{
+        width: 100%;
+        margin : 0;
+        padding : 0;
+    }
+    .row1 , .row2 {
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0% 5%;
+    }
+    .row1 .col1 ,.row2 .col1 {
+        width: 35%;
+    }
+}
 /* Dashboard CSS */
 .dashboard{
     width : 100vw;
