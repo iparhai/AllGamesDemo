@@ -1,0 +1,252 @@
+*{
+    transition-duration: 0.3s;
+}
+.main{
+    width: 100vw;
+    height : 100vh;
+    background-image: url('../assets/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+   width: 50vw;
+   text-align: center;
+   margin : 0 auto 5vh;
+}
+.logo{
+    margin : 15vh auto 0vh;
+    width : 30%
+}
+.tagline{
+    color : grey
+}
+.form{
+    width : 40vw;
+    text-align: left;
+    margin : 0 auto;
+}
+.form label{
+    margin : 20px 0;
+}
+.row1{
+    width:40vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.row1 .col1{
+    width : 15vw
+}
+.row2{
+    width:40vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.row2 .col1{
+    width : 15vw;
+    float: left;
+}
+.form h6{
+    font-size: 14px;
+    color: #9a9a9a;
+}
+.form .userInput{
+    margin-top: -20px;
+    /* display: flex; */
+}
+.form .userInput h6{
+    font-size: 12px;
+}
+
+.userInput input{
+    width : 100%;
+    border-radius: 100px;
+    border: 0.25px solid #9a9a9a; 
+    padding : 10px; 
+}
+.checkbox{
+    /* border: 1px solid red; */
+    height: auto;
+}
+.checkbox input,.checkbox label{
+    float: left;
+    margin : 5px 0;
+    /* width :50% */
+    height: 20px;
+    line-height: 20px;
+}
+.checkbox input{
+    width :10%
+}
+.checkbox label{
+    width : 90%
+}
+.submit{
+    background-color : #072a52;
+    padding : 15px;
+    border : none;
+    color : white;
+    border-radius: 100px;
+    width : 70%;
+    margin-top : 3vw;
+    font-weight: bold;
+}
+/* Dashboard CSS */
+.dashboard{
+    width : 100vw;
+    height: 100vh;
+    background-image: url('../assets/Dashboard.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.dash_header{
+    width: 80vw;
+    text-align: center;
+    margin : 0 auto;
+ }
+nav{
+    height : 10vh;
+    /* border : 1px solid red; */
+    width : 80vw;
+    /* line-height: 20vh; */
+    padding-top : 10vh;
+}
+ul {
+    list-style-type: none;
+    padding-top: 0px;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+  
+
+.right .cross{
+    width : 50%;
+    /* padding : 2px */
+}
+.right .info{
+    width : 25%;
+    padding : 12px
+}
+.subtitles{
+    margin-left: 30px;
+    text-align: left; 
+}
+.subtitles h6{
+    font-size: 18px;
+    font-weight : 600;
+    margin-top: 0px;
+}
+.subtitles p{
+    font-size: 12px;
+    margin-top: 0;
+}
+@media screen and (max-width : 600px){
+    .subtitles{
+        margin-left: 10px;
+        text-align: left; 
+    }
+    .subtitles h6{
+        font-size: 14px;
+        font-weight : 600;
+        margin-top: 0px;
+    }
+    .subtitles p{
+        font-size: 10px;
+        margin-top: -25px; 
+    } 
+    .right .cross{
+        width : 45%;
+        /* padding : 2px */
+    }
+    .right .info{
+        width : 25%;
+        padding : 12px
+    }
+}
+@media screen and (max-width : 477px){
+    .subtitles{
+        margin-left: 10px;
+        text-align: left; 
+    }
+    .subtitles h6{
+        font-size: 14px;
+        font-weight : 600;
+        margin-top: 0px;
+    }
+    .subtitles p{
+        /* font-size: 10px;
+        margin-top: -25px;  */
+        visibility: hidden;
+    } 
+    .right .cross{
+        width : 35%;
+        /* padding : 2px */
+    }
+    .right .info{
+        width : 20%;
+        padding : 6px
+    }
+}
+@media screen and (max-width : 360px){
+    
+    .subtitles{
+        margin-left: 10px;
+        text-align: left; 
+    }
+    .subtitles h6{
+        font-size: 14px;
+        font-weight : 600;
+        margin-top: 0px;
+    }
+    .subtitles p{
+        /* font-size: 10px;
+        margin-top: -25px;  */
+        visibility: hidden;
+    } 
+    .right .cross{
+        width : 35%;
+        /* padding : 2px */
+    }
+    .right .info{
+        width : 20%;
+        padding : 6px
+    }
+}
+/* Card CSS */
+.cardholder1{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:5vh
+}
+.headingMaths h1 span{
+    color: #ffc300;
+}
+.headingMaths h1{
+    color: #072a52
+}
+.headingMaths p{
+    color: #9a9a9a;
+    font-size: 10px;
+}
+/* Units CSS */
+.cardholder2{
+    width : 80vw;
+    height : 60vh;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top:10vh;
+    overflow-y: scroll;
+    margin-top: 5vw;
+}
+/* Card css */
+.card:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #999;
+    text-transform: capitalize;
+}
+.card{
+    text-transform: capitalize;
+    border: 1px solid #999;
+}
