@@ -237,7 +237,8 @@ li {
     justify-content:center;
     flex-wrap: wrap;
     margin-top:10vh;
-    overflow-y: scroll;
+    overflow-y: auto;
+    scrollbar-color:  #999 #f1f1f1;
     margin-top: 5vw;
 }
 /* Card css */
@@ -250,3 +251,24 @@ li {
     text-transform: capitalize;
     border: 1px solid #999;
 }
+
+/* width */
+::-webkit-scrollbar {
+    transition-duration: 0.3s;
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:hsla(100,0%,0%,0.2); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

@@ -23,16 +23,16 @@ const data = [
   {gameName:'cn_1_9',title:'Grade2',unit:'Unit 5',descrip:'Division problem',color:'#9a9f69',link:'https://iparhai.github.io/division_within_10/'},
   {gameName:'cn_1_9',title:'Grade2',unit:'Unit 6',descrip:'Multiplication problem',color:'#82ac66',link:'https://iparhai.github.io/multiplication_within_10/'},
   // grade3 start
-  {gameName:'roman',title:'Grade3',unit:'Unit 1',descrip:'roman numbers',color:'#528cce',link:'https://iparhai.github.io/dynamicGame/?grade=3&gameName=roman&dif=b&gender=f'},
-  {gameName:'properimproperfraction',title:'Grade3',unit:'Unit 2',descrip:'proper & improper fractions',color:'#82ac66',link:'https://iparhai.github.io/dynamicGame/?grade=3&gameName=properimproperfraction&dif=b&gender=f'},
-  {gameName:'addingfraction',title:'Grade3',unit:'Unit 3',descrip:'addition of fractions',color:'#d48181',link:'https://iparhai.github.io/dynamicGame/?grade=3&gameName=addingfraction&dif=b&gender=f'},
+  {gameName:'roman',title:'Grade3',unit:'Unit 1',descrip:'roman numbers',color:'#528cce'},
+  {gameName:'properimproperfraction',title:'Grade3',unit:'Unit 2',descrip:'proper & improper fractions',color:'#82ac66'},
+  {gameName:'addingfraction',title:'Grade3',unit:'Unit 3',descrip:'addition of fractions',color:'#d48181'},
   {gameName:'subtractingfraction',title:'Grade3',unit:'Unit 4',descrip:'subtraction of fractions',color:'#6b819a',link:'https://iparhai.github.io/dynamicGame/?grade=3&gameName=subtractingfraction&dif=b&gender=f'},
   {gameName:'identifyfraction',title:'Grade3',unit:'Unit 5',descrip:'identify fractions',color:'#9a9f69',link:'https://iparhai.github.io/dynamicGame/?grade=3&gameName=identifyfraction&dif=b&gender=f'},
   {gameName:'pictographmostleast',title:'Grade3',unit:'Unit 6',descrip:'Picture graph',color:'#82ac66',link:'https://iparhai.github.io/dynamicGame/?grade=3&gameName=pictographmostleast&dif=b&gender=f'},
   {gameName:'pictoshop',title:'Grade3',unit:'Unit 6',descrip:'Word problem',color:'#82ac66',link:'https://iparhai.github.io/dynamicGame/?grade=3&gameName=pictoshop&dif=b&gender=f'},
   // grade4 start
-  {gameName:'niw',title:'Grade4',unit:'Unit 1',descrip:'number in words',color:'#528cce',link:'https://iparhai.github.io/dynamicGame/?grade=4&gameName=niw&dif=b&gender=f'},
-  {gameName:'anu6d',title:'Grade4',unit:'Unit 2',descrip:'Carry & borrow',color:'#82ac66',link:'https://iparhai.github.io/dynamicGame/?grade=4&gameName=anu6d&dif=b&gender=f'},
+  {gameName:'niw',title:'Grade4',unit:'Unit 1',descrip:'number in words',color:'#528cce'},
+  {gameName:'anu6d',title:'Grade4',unit:'Unit 2',descrip:'Carry & borrow',color:'#82ac66'},
   // grade5 start
   {title:'Grade5',unit:'Comming soon',descrip:'In Progress',color:'#f00'},
   // {title:'Grade5',unit:'Unit 2',descrip:'concept of numbers',color:'#82ac66'},
