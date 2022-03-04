@@ -9,7 +9,7 @@ const data = [
     { gameName: 'cn_1_9', title: 'Grade1', unit: 'Unit 1.1', descrip: 'Numbers from 1 to 9', color: '#528cce', link: 'https://iparhai.github.io/dynamicGame/?grade=1&gameName=cn_1_9&dif=b&gender=f' },
     { gameName: 'mnwn', title: 'Grade1', unit: 'Unit 1.2', descrip: 'Match the number with its name', color: '#82ac66', link: 'https://iparhai.github.io/dynamicGame/?grade=1&gameName=mnwn&dif=b&gender=f' },
     { gameName: 'ascorder', title: 'Grade1', unit: 'Unit 1.3', descrip: 'Ascending order', color: '#d48181', link: 'https://iparhai.github.io/dynamicGame/?grade=1&gameName=ascorder&dif=b&gender=f' },
-    { gameName: 'digitalTime', title: 'Grade1', unit: 'Unit 1.4', descrip: 'Digital Time', color: '#6b819a', link: 'https://iparhai.github.io/dynamicGame/?grade=1&gameName=digiclock&dif=b&gender=f' },
+    { gameName: 'digiclock', title: 'Grade1', unit: 'Unit 1.4', descrip: 'Digital Time', color: '#6b819a', link: 'https://iparhai.github.io/dynamicGame/?grade=1&gameName=digiclock&dif=b&gender=f' },
     { gameName: 'ban', title: 'Grade1', unit: 'Unit 1.5', descrip: 'Before after number', color: '#9a9f69', link: 'https://iparhai.github.io/dynamicGame/?grade=1&gameName=ban&dif=b&gender=f' },
     { gameName: 'analogtime', title: 'Grade1', unit: 'Unit 1.6', descrip: 'Time', color: '#a46477', link: 'https://iparhai.github.io/dynamicGame/?grade=1&gameName=analogtime&dif=b&gender=f' },
     { gameName: 'idsh', title: 'Grade1', unit: 'Unit 1.7', descrip: 'Identify Shapes', color: '#675b69', link: 'https://iparhai.github.io/dynamicGame/?grade=1&gameName=idsh&dif=b&gender=f' },
