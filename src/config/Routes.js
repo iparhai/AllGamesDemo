@@ -30,7 +30,9 @@ const data = [
     { gameName: 'pictoshop', title: 'Grade3', unit: 'Unit 6', descrip: 'Word problem', color: '#82ac66', link: 'https://iparhai.github.io/dynamicGame/?grade=3&gameName=pictoshop&dif=b&gender=f' },
     // grade4 start
     { gameName: 'niw', title: 'Grade4', unit: 'Unit 1', descrip: 'number in words', color: '#528cce' },
-    { gameName: 'anu6d', title: 'Grade4', unit: 'Unit 2', descrip: 'Carry & borrow', color: '#82ac66' },
+    { gameName: 'anu6d', title: 'Grade4', unit: 'Unit 2', descrip: 'Addition Using Carry', color: '#82ac66' },
+    { gameName: 'snu6d', title: 'Grade4', unit: 'Unit 3', descrip: 'Subtraction Using Borrow', color: '#9a9f69' },
+
     // grade5 start
     { title: 'Grade5', unit: 'Comming soon', descrip: 'In Progress', color: '#f00' },
 ]
