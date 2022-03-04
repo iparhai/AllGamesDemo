@@ -49,7 +49,7 @@ export default function Login() {
                             </div>
                             <div class='checkbox'>
                             <input type='radio' name='gender' value='f' onClick={()=>setGender(1)}/>
-                            <label>Femal</label>
+                            <label>Female</label>
                             </div>
                             
                         </div>
