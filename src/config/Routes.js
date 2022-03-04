@@ -39,7 +39,7 @@ export default function AppRoutes() {
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="" element={<Login />} />
+                    <Route path="/AllGamesDemo/" element={<Login />} />
                     <Route path="/Dashboard" element={<Dashboard />} />
                     <Route path="/Login" element={<Login />} />
                     <Route path="/Units/:title/:subject" element={<Units data={data} />} />
