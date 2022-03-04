@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dynamicGame/static/css/main.2bb03179.css",
-    "main.js": "/dynamicGame/static/js/main.31f32dfd.js",
-    "static/media/Dashboard.svg": "/dynamicGame/static/media/Dashboard.f54860fd8cb51d452fa6.svg",
-    "static/media/info.svg": "/dynamicGame/static/media/info.a62e8c068fcb03291577f208f81db419.svg",
-    "static/media/iparhailog.svg": "/dynamicGame/static/media/iparhailog.86f833600a8b3b4fc450f029009f8665.svg",
-    "static/media/cross.svg": "/dynamicGame/static/media/cross.225bded9468443b3a4146e221221af83.svg",
-    "static/media/iparhai.svg": "/dynamicGame/static/media/iparhai.21d88bc972a46b27316c146204217aaf.svg",
-    "static/media/background.svg": "/dynamicGame/static/media/background.d86564ef04bffc96fdef.svg",
-    "index.html": "/dynamicGame/index.html",
-    "main.2bb03179.css.map": "/dynamicGame/static/css/main.2bb03179.css.map",
-    "main.31f32dfd.js.map": "/dynamicGame/static/js/main.31f32dfd.js.map"
+    "main.css": "/AllGamesDemo/static/css/main.d25e2185.css",
+    "main.js": "/AllGamesDemo/static/js/main.7e506d63.js",
+    "static/media/Dashboard.svg": "/AllGamesDemo/static/media/Dashboard.f54860fd8cb51d452fa6.svg",
+    "static/media/info.svg": "/AllGamesDemo/static/media/info.a62e8c068fcb03291577f208f81db419.svg",
+    "static/media/iparhailog.svg": "/AllGamesDemo/static/media/iparhailog.86f833600a8b3b4fc450f029009f8665.svg",
+    "static/media/cross.svg": "/AllGamesDemo/static/media/cross.225bded9468443b3a4146e221221af83.svg",
+    "static/media/iparhai.svg": "/AllGamesDemo/static/media/iparhai.21d88bc972a46b27316c146204217aaf.svg",
+    "static/media/background.svg": "/AllGamesDemo/static/media/background.d86564ef04bffc96fdef.svg",
+    "index.html": "/AllGamesDemo/index.html",
+    "main.d25e2185.css.map": "/AllGamesDemo/static/css/main.d25e2185.css.map",
+    "main.7e506d63.js.map": "/AllGamesDemo/static/js/main.7e506d63.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bb03179.css",
-    "static/js/main.31f32dfd.js"
+    "static/css/main.d25e2185.css",
+    "static/js/main.7e506d63.js"
   ]
 }
