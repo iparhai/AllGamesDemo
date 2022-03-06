@@ -90,7 +90,7 @@
     margin-top : 3vw;
     font-weight: bold;
 }
-@media  screen and (max-width : 900px){
+@media  screen and (max-width : 1024px){
     .form{
         width: 100%;
         margin : 0;
