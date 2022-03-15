@@ -39,7 +39,7 @@ const data = [
 export default function AppRoutes() {
     return (
         <div>
-            <HashRouter>
+            <BrowserRouter>
                 <Routes>
                     <Route path="/AllGamesDemo/" element={<Login />} />
                     <Route path="/Dashboard" element={<Dashboard />} />
@@ -47,7 +47,7 @@ export default function AppRoutes() {
                     <Route path="/Units/:title/:subject" element={<Units data={data} />} />
                     <Route path="/Levels" element={<Levels data={data} />} />
                 </Routes>
-            </HashRouter>
+            </BrowserRouter>
         </div>
     )
 }
