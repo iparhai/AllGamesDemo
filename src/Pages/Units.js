@@ -35,7 +35,7 @@ export default function Units({data}) {
 
                         <li className='right' style={{ float: 'right' }}>
                             <img className='info' src={info} />
-                            <Link to="/Dashboard">
+                            <Link to="/AllGamesDemo/Dashboard">
                                 <img className='cross' src={cross} />
                             </Link>
                         </li>
@@ -48,7 +48,7 @@ export default function Units({data}) {
                         searchParams.get("grade")=='2'?
                         data.filter((obj)=>obj.title === title).map((obj,idx)=>{
                             return(
-                            <Link to={`/Levels/?${searchParams}&gameName=${idx}`} style={{textDecoration:'none',color:'white',margin:'1%'}}>
+                            <Link to={`/AllGamesDemo/Levels/?${searchParams}&gameName=${idx}`} style={{textDecoration:'none',color:'white',margin:'1%'}}>
                                 <UnitCard Key={idx} color={obj.color} text={obj.unit} description={obj.descrip} link={obj.link}/>
                             </Link>
                             )    
@@ -56,7 +56,7 @@ export default function Units({data}) {
                         :
                         data.filter((obj)=>obj.title === title).map((obj,idx)=>{
                             return(
-                                <Link to={`/Levels/?${searchParams}&gameName=${obj.gameName}`} style={{textDecoration:'none',color:'white',margin:'1%'}}>
+                                <Link to={`/AllGamesDemo/Levels/?${searchParams}&gameName=${obj.gameName}`} style={{textDecoration:'none',color:'white',margin:'1%'}}>
                                     <UnitCard Key={idx} color={obj.color} text={obj.unit} description={obj.descrip} link={obj.link}/>
                                 </Link>
                             )

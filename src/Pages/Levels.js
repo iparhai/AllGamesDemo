@@ -38,7 +38,7 @@ export default function Levels({data}) {
 
                         <li className='right' style={{ float: 'right' }}>
                             <img className='info' src={info} />
-                            <Link to="/Dashboard">
+                            <Link to="/AllGamesDemo/Dashboard">
                                 <img className='cross' src={cross} />
                             </Link>
                         </li>

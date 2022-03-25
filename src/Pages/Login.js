@@ -10,7 +10,7 @@ export default function Login() {
     const [gender,setGender] = useState(0);
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate(`/Dashboard/?gender=${gender==0?"m":'f'}`)
+        navigate(`/AllGamesDemo/Dashboard/?gender=${gender==0?"m":'f'}`)
     }
     return (
         <div className='main'>
