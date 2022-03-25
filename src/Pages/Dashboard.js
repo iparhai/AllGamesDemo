@@ -38,7 +38,7 @@ function Dashboard() {
 
                         <li className='right' style={{ float: 'right' }}>
                             <img className='info' src={info} />
-                            <Link to="/AllGamesDemo/Login">
+                            <Link to="/Login">
                                 <img className='cross' src={cross} />
                             </Link>
                         </li>
@@ -53,7 +53,7 @@ function Dashboard() {
                     {
                         gradeArray.map((obj,idx)=>{
                             return(
-                                <Link to={`/AllGamesDemo/Units/${obj.grade}/${obj.subject}?${searchParams}&grade=${obj.number}`} style={{textDecoration:'none'}}>
+                                <Link to={`/Units/${obj.grade}/${obj.subject}?${searchParams}&grade=${obj.number}`} style={{textDecoration:'none'}}>
                                     <Cards text={obj.grade} color={obj.color}/>
                                 </Link>
                             )
