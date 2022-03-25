@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './style.css';
-import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route,Link,useNavigate} from "react-router-dom";
 import logo from '../assets/iparhailog.svg';
 import Dashboard from './Dashboard';
 
@@ -8,7 +8,10 @@ import Dashboard from './Dashboard';
 
 export default function Login() {
     const [gender,setGender] = useState(0);
-    
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate(`/Dashboard/?gender=${gender==0?"m":'f'}`)
+    }
     return (
         <div className='main'>
             <div className='header'>
@@ -57,9 +60,10 @@ export default function Login() {
                 </div>
                 
                 <div style={{textAlign:'center'}}>
-                    <Link to={`/Dashboard/?gender=${gender==0?"m":'f'}`}>
+                    {/* <Link to={`/Dashboard/?gender=${gender==0?"m":'f'}`}>
                         <button className='submit' type='submit'>Start gaming session</button>
-                    </Link>
+                    </Link> */}
+                    <button onClick={handleClick} className='submit'>Start gaming session</button>
                 </div>
                 
             </div>
