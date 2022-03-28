@@ -63,6 +63,9 @@ export default function Login() {
                     {/* <Link to={`/Dashboard/?gender=${gender==0?"m":'f'}`}>
                         <button className='submit' type='submit'>Start gaming session</button>
                     </Link> */}
+                    {/* <a href={`/Dashboard/?gender=${gender==0?"m":'f'}`}>
+                        <button className='submit' type='submit'>Start gaming session</button>
+                    </a> */}
                     <button onClick={handleClick} className='submit'>Start gaming session</button>
                 </div>
                 

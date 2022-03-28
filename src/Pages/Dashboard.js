@@ -24,7 +24,7 @@ function Dashboard() {
     // function setURL(obj){
     //    setGradeUrl(...obj.number);
     // }
-    console.log(gradeArray);
+    // console.log(gradeArray);
     return (
         <div className='dashboard'>
             <div className='dash_header'>

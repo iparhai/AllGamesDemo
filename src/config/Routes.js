@@ -1,5 +1,11 @@
 import React from 'react'
-import { BrowserRouter,HashRouter, Routes, Route } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    HashRouter,
+    Routes,
+    Route,
+    // Switch
+} from "react-router-dom";
 import Dashboard from '../Pages/Dashboard';
 import Units from '../Pages/Units';
 import Levels from '../Pages/Levels';
@@ -40,15 +46,24 @@ const data = [
 export default function AppRoutes() {
     return (
         <div>
-            <BrowserRouter>
+            {/* <BrowserRouter>
                 <Routes>
                     <Route path="/AllGamesDemo/" element={<Login />} />
                     <Route path="/Dashboard" element={<Dashboard />} />
                     <Route path="/Login" element={<Login />} />
                     <Route path="/Units/:title/:subject" element={<Units data={data} />} />
                     <Route path="/Levels" element={<Levels data={data} />} />
+                    </Routes>
+                </BrowserRouter> */}
+            <Router basename='/AllGamesDemo'>
+                <Routes>
+                    <Route exact path="" element={<Login />} />
+                    <Route path="/Dashboard" element={<Dashboard />} />
+                    <Route path="/Login" element={<Login />} />
+                    <Route path="/Units/:title/:subject" element={<Units data={data} />} />
+                    <Route path="/Levels" element={<Levels data={data} />} />
                 </Routes>
-            </BrowserRouter>
+            </Router>
         </div>
     )
 }
