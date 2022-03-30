@@ -50,7 +50,7 @@ export default function Levels({data}) {
                     searchgrade.get("grade") == '2'?
                     difficulty.map((obj,idx)=>{
                         return(
-                            <a href={data[parseInt(searchIndex.get("gameName"))+7].link} target='_blank' style={{textDecoration:'none',margin:'1%'}}>
+                            <a href={data[parseInt(searchIndex.get("gameName"))+3].link} target='_blank' style={{textDecoration:'none',margin:'1%'}}>
                                 <Card text={obj.level} color={obj.color}/>
                             </a>
                         )
