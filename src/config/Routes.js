@@ -41,6 +41,7 @@ const data = [
     { gameName: 'snu6d', title: 'Grade4', unit: 'Unit 4.1', descrip: 'Subtraction Using Borrow', color: '#9a9f69' },
     { gameName: 'geometrybox', title: 'Grade4', unit: 'Unit 4.2', descrip: 'Geometry Box', color: '#528cce' },
     { gameName: 'angles', title: 'Grade4', unit: 'Unit 4.3', descrip: 'Angles', color: '#82ac66' },
+    { gameName: 'angles', title: 'Grade4', unit: 'Unit 4.3', descrip: 'Angles', color: '#82ac66' },
 
     // grade5 start
     { title: 'Grade5', unit: 'Comming soon', descrip: 'In Progress', color: '#f00' },
