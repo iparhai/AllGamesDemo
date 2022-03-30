@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AllGamesDemo/static/css/main.65dadbe8.css",
-    "main.js": "/AllGamesDemo/static/js/main.b723e4a6.js",
+    "main.js": "/AllGamesDemo/static/js/main.49243131.js",
     "static/media/Dashboard.svg": "/AllGamesDemo/static/media/Dashboard.101e0e6a8f5f587c4e20.svg",
     "static/media/info.svg": "/AllGamesDemo/static/media/info.14acd904ee4be45135df90a679d0b978.svg",
     "static/media/iparhailog.svg": "/AllGamesDemo/static/media/iparhailog.a5b1e1d4e11cbd0bd08f01ed1b7c3083.svg",
@@ -10,10 +10,10 @@
     "static/media/background.svg": "/AllGamesDemo/static/media/background.ae90f8d57146444b8752.svg",
     "index.html": "/AllGamesDemo/index.html",
     "main.65dadbe8.css.map": "/AllGamesDemo/static/css/main.65dadbe8.css.map",
-    "main.b723e4a6.js.map": "/AllGamesDemo/static/js/main.b723e4a6.js.map"
+    "main.49243131.js.map": "/AllGamesDemo/static/js/main.49243131.js.map"
   },
   "entrypoints": [
     "static/css/main.65dadbe8.css",
-    "static/js/main.b723e4a6.js"
+    "static/js/main.49243131.js"
   ]
 }
