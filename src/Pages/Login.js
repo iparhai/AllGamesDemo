@@ -7,10 +7,19 @@ import Dashboard from './Dashboard';
 
 
 export default function Login() {
+    const [fName, setFName] = React.useState();
+    const [lName, setLName] = React.useState();
+    // const [fName, setFName] = React.useState();
+    // const [fName, setFName] = React.useState();
     const [gender,setGender] = useState(0);
     const navigate = useNavigate();
-    const handleClick = () => {
-        navigate(`/Dashboard/?gender=${gender==0?"m":'f'}`)
+    const handleClick = (e) => {
+        e.preventDefault();
+        if(fName==="" || lName===""){
+            alert("All fields are empy")
+        }else{
+            navigate(`/Dashboard/?gender=${gender==0?"m":'f'}`)
+        }
     }
     return (
         <div className='main'>
@@ -26,13 +35,23 @@ export default function Login() {
                     <div class='col1'>
                         <label><h6>First Name</h6></label>
                         <div className='userInput'>
-                            <input placeholder='First Name' type='name' required/>
+                            <input
+                                placeholder='First Name'
+                                type='name'
+                                value={fName}
+                                onChange={(e)=>setFName(e.target.value)}
+                            />
                         </div>
                     </div>
                     <div class='col1'>
                         <label><h6>Last Name</h6></label>
                         <div className='userInput'>
-                            <input placeholder='Last Name' type='name' required/>
+                            <input
+                                placeholder='Last Name'
+                                type='name'
+                                value={lName}
+                                onChange={(e)=>setLName(e.target.value)}
+                            />
                         </div>
                     </div>
                 </div>
@@ -66,7 +85,7 @@ export default function Login() {
                     {/* <a href={`/Dashboard/?gender=${gender==0?"m":'f'}`}>
                         <button className='submit' type='submit'>Start gaming session</button>
                     </a> */}
-                    <button onClick={handleClick} className='submit'>Start gaming session</button>
+                    <button type='Submit' onClick={handleClick} className='submit'>Start gaming session</button>
                 </div>
                 
             </div>
