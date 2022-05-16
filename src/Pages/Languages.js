@@ -19,10 +19,11 @@ export default function Levels({data}) {
     const [searchIndex,setSearchIndex] = useSearchParams();
     // console.log(parseInt(searchIndex.get("gameName"))+6);
     // console.log(data[parseInt(searchIndex.get("gameName"))+6].link)
-    const difficulty = [
-        {dif:'b',level:'Beginner',color:'#528cce',subject:'Maths'},
-        {dif:'i',level:'Intermediate',color:'#82ac66',subject:'Maths'},
-        {dif:'a',level:'Advance',color:'#d48181',subject:'Maths'},
+    const Languages = [
+        {lang:'u',Language:'Urdu',color:'#528cce',subject:'Maths'},
+        {lang:'e',Language:'English',color:'#82ac66',subject:'Maths'},
+        {lang:'a',Language:'Arabic',color:'#d48181',subject:'Maths'},
+        {lang:'p',Language:'Pashto',color:'#d48181',subject:'Maths'},
     ]
     
     return (
@@ -48,7 +49,7 @@ export default function Levels({data}) {
                 <div className='cardholder2'>
                 {    
                     searchgrade.get("grade") == '2'?
-                    difficulty.map((obj,idx)=>{
+                    Languages.map((obj,idx)=>{
                         return(
                             <a href={data[parseInt(searchIndex.get("gameName"))+3].link} target='_blank' style={{textDecoration:'none',margin:'1%'}}>
                                 <Card text={obj.level} color={obj.color}/>
@@ -60,13 +61,13 @@ export default function Levels({data}) {
                     searchgrade.get("grade") == '5'?
                         <UnitCard Key={2} color='#f00' text='Comming soon' description='In progress'/>
                     :
-                    difficulty.map((obj,idx)=>{
+                    Languages.map((obj,idx)=>{
                         return(
-                            <Link to={`/Languages/?${searchParams}&dif=${obj.dif}`} style={{textDecoration:'none',color:'white',margin:'1%'}}>
-                            {/* // // <a href={`https://iparhai.github.io/dynamicGame/?${searchParams}&dif=${obj.dif}`} target='_blank' style={{textDecoration:'none',margin:'1%'}}> */}
-                                 <Card text={obj.level} color={obj.color} />
-                            {/* // // </a> */}
-                            </Link>
+                            // <Link to={`/Languages/?${searchParams}&gameName=${obj.gameName}`} style={{textDecoration:'none',color:'white',margin:'1%'}}>
+                                <a href={`https://iparhai.github.io/dynamicGame/?${searchParams}&lang=${obj.lang}`} target='_blank' style={{textDecoration:'none',margin:'1%'}}>
+                                    <Card text={obj.Language} color={obj.color}/>
+                                </a>
+                            // </Link>
                         )
                     })
                 }

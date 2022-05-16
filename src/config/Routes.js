@@ -9,6 +9,7 @@ import {
 import Dashboard from '../Pages/Dashboard';
 import Units from '../Pages/Units';
 import Levels from '../Pages/Levels';
+import Languages from '../Pages/Languages'
 import Login from '../Pages/Login';
 
 const data = [
@@ -27,25 +28,26 @@ const data = [
     // { gameName: 'cn_1_9', title: 'Grade2', unit: 'Unit 2.5', descrip: 'Division problem', color: '#9a9f69', link: 'https://iparhai.github.io/division_within_10/' },
     // { gameName: 'cn_1_9', title: 'Grade2', unit: 'Unit 2.6', descrip: 'Multiplication problem', color: '#82ac66', link: 'https://iparhai.github.io/multiplication_within_10/' },
     // grade3 start
-    { gameName: 'roman', title: 'Grade3', unit: 'Unit 1.1', descrip: 'roman numbers', color: '#528cce' },
-    { gameName: 'evenodd', title: 'Grade3', unit: 'Unit 1.2', descrip: 'even odd numbers', color: '#528cce' },
-    { gameName: 'placevalueof4digit', title: 'Grade3', unit: 'Unit 1.3', descrip: 'place value', color: '#528cce' },
-    { gameName: 'compare', title: 'Grade3', unit: 'Unit 1.4', descrip: 'Compare & order numbers', color: '#528cce' },
-    { gameName: 'ascending', title: 'Grade3', unit: 'Unit 1.5', descrip: 'Ascending', color: '#528cce' },
-    { gameName: 'descending', title: 'Grade3', unit: 'Unit 1.6', descrip: 'descending', color: '#528cce' },
-    { gameName: 'numberline', title: 'Grade3', unit: 'Unit 1.7', descrip: 'number line', color: '#528cce' },
-    { gameName: 'anu4d', title: 'Grade3', unit: 'Unit 2.1', descrip: 'addition using carry', color: '#528cce' },
-    { gameName: 'snu4d', title: 'Grade3', unit: 'Unit 2.2', descrip: 'subtraction with borrowing', color: '#528cce' },
-    { gameName: 'multi', title: 'Grade3', unit: 'Unit 2.3', descrip: 'multiplication', color: '#528cce' },
-    { gameName: 'div', title: 'Grade3', unit: 'Unit 2.4', descrip: 'division', color: '#528cce' },
-    { gameName: 'fraction', title: 'Grade3', unit: 'Unit 3.1', descrip: 'fraction', color: '#82ac66' },
-    { gameName: 'pimp', title: 'Grade3', unit: 'Unit 3.2', descrip: 'proper improper fraction', color: '#82ac66' },
-    { gameName: 'addingfraction', title: 'Grade3', unit: 'Unit 3.3', descrip: 'addition of fractions', color: '#d48181' },
-    { gameName: 'subtractingfraction', title: 'Grade3', unit: 'Unit 3.4', descrip: 'subtraction of fractions', color: '#d48181'},
-    { gameName: 'massweight', title: 'Grade3', unit: 'Unit 4.1', descrip: 'unit of mass weight', color: '#82ac66'},
-    { gameName: 'geometryshapes', title: 'Grade3', unit: 'Unit 5.1', descrip: 'geometry shapes', color: '#82ac66'},
-    { gameName: 'parameter', title: 'Grade3', unit: 'Unit 5.2', descrip: 'Parameter of shapes', color: '#82ac66'},
-    { gameName: 'pictoshop', title: 'Grade3', unit: 'Unit 6.1', descrip: 'picture graph', color: '#528cce'},
+    { gameName: 'numberline', title: 'Grade3', unit: 'Unit 1.1', descrip: 'number line', color: '#528cce' },
+    // { gameName: 'numberline', title: 'Grade3', unit: 'Unit 1.1', descrip: 'number line(English)', color: '#528cce' },
+    // { gameName: 'numberline', title: 'Grade3', unit: 'Unit 1.1', descrip: 'number line(Pashto)', color: '#528cce' },
+    // { gameName: 'numberline', title: 'Grade3', unit: 'Unit 1.1', descrip: 'number line(Arabic)', color: '#528cce' },
+    // { gameName: 'compare', title: 'Grade3', unit: 'Unit 1.4', descrip: 'Compare & order numbers', color: '#528cce' },
+    // { gameName: 'ascending', title: 'Grade3', unit: 'Unit 1.5', descrip: 'Ascending', color: '#528cce' },
+    // { gameName: 'descending', title: 'Grade3', unit: 'Unit 1.6', descrip: 'descending', color: '#528cce' },
+    // { gameName: 'numberline', title: 'Grade3', unit: 'Unit 1.7', descrip: 'number line', color: '#528cce' },
+    // { gameName: 'anu4d', title: 'Grade3', unit: 'Unit 2.1', descrip: 'addition using carry', color: '#528cce' },
+    // { gameName: 'snu4d', title: 'Grade3', unit: 'Unit 2.2', descrip: 'subtraction with borrowing', color: '#528cce' },
+    // { gameName: 'multi', title: 'Grade3', unit: 'Unit 2.3', descrip: 'multiplication', color: '#528cce' },
+    // { gameName: 'div', title: 'Grade3', unit: 'Unit 2.4', descrip: 'division', color: '#528cce' },
+    // { gameName: 'fraction', title: 'Grade3', unit: 'Unit 3.1', descrip: 'fraction', color: '#82ac66' },
+    // { gameName: 'pimp', title: 'Grade3', unit: 'Unit 3.2', descrip: 'proper improper fraction', color: '#82ac66' },
+    // { gameName: 'addingfraction', title: 'Grade3', unit: 'Unit 3.3', descrip: 'addition of fractions', color: '#d48181' },
+    // { gameName: 'subtractingfraction', title: 'Grade3', unit: 'Unit 3.4', descrip: 'subtraction of fractions', color: '#d48181'},
+    // { gameName: 'massweight', title: 'Grade3', unit: 'Unit 4.1', descrip: 'unit of mass weight', color: '#82ac66'},
+    // { gameName: 'geometryshapes', title: 'Grade3', unit: 'Unit 5.1', descrip: 'geometry shapes', color: '#82ac66'},
+    // { gameName: 'parameter', title: 'Grade3', unit: 'Unit 5.2', descrip: 'Parameter of shapes', color: '#82ac66'},
+    // { gameName: 'pictoshop', title: 'Grade3', unit: 'Unit 6.1', descrip: 'picture graph', color: '#528cce'},
     // grade4 start
     { gameName: 'niw', title: 'Grade4', unit: 'Unit 1.1', descrip: 'numbers', color: '#9a9f69' },
     { gameName: 'placevalue', title: 'Grade4', unit: 'Unit 1.2', descrip: 'place value', color: '#9a9f69' },
@@ -87,6 +89,7 @@ export default function AppRoutes() {
                     <Route path="/Login" element={<Login />} />
                     <Route path="/Units/:title/:subject" element={<Units data={data} />} />
                     <Route path="/Levels" element={<Levels data={data} />} />
+                    <Route path="/Languages" element={<Languages data={data} />} />
                 </Routes>
             </Router>
         </div>
