@@ -24,6 +24,7 @@ export default function Levels({data}) {
         {lang:'e',Language:'English',color:'#82ac66',subject:'Maths'},
         {lang:'a',Language:'Arabic',color:'#d48181',subject:'Maths'},
         {lang:'p',Language:'Pashto',color:'#d48181',subject:'Maths'},
+        {lang:'k',Language:'Korean',color:'#528cce',subject:'Maths'},
     ]
     
     return (
