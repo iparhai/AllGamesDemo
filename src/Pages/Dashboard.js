@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {Link, useParams,useSearchParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import iparhai from '../assets/iparhai.svg'
 import cross from '../assets/cross.svg';
 import info from '../assets/info.svg';
@@ -11,15 +11,15 @@ import Units from './Units'
 
 
 function Dashboard() {
-    const [gradeUrl,setGradeUrl] = useState(0);
+    const [gradeUrl, setGradeUrl] = useState(0);
     const [searchParams, setSearchParams] = useSearchParams();
     searchParams.get("gender");
     const gradeArray = [
-        {number:1,grade:'Grade1',color:'#528cce',subject:'Maths'},
-        {number:2,grade:'Grade2',color:'#82ac66',subject:'Maths'},
-        {number:3,grade:'Grade3',color:'#d48181',subject:'Maths'},
-        {number:4,grade:'Grade4',color:'#6b819a',subject:'Maths'},
-        {number:5,grade:'Grade5',color:'#a5a5a5',subject:'Maths'}
+        { number: 1, grade: 'Grade1', color: '#528cce', subject: 'Maths' },
+        { number: 2, grade: 'Grade2', color: '#82ac66', subject: 'Maths' },
+        { number: 3, grade: 'Grade3', color: '#d48181', subject: 'Maths' },
+        { number: 4, grade: 'Grade4', color: '#6b819a', subject: 'Maths' },
+        { number: 5, grade: 'Grade5', color: '#a5a5a5', subject: 'Maths' }
     ]
     // function setURL(obj){
     //    setGradeUrl(...obj.number);
@@ -32,8 +32,8 @@ function Dashboard() {
                     <ul>
                         <li><img src={iparhai} /></li>
                         <li className='subtitles'>
-                            <h6>Learn via gamifying education</h6>
-                            <p>Follow by: Single National Curriculum</p>
+                            <h6>Learn via gamified education</h6>
+                            {/* <p>Follow by: Single National Curriculum</p> */}
                         </li>
 
                         <li className='right' style={{ float: 'right' }}>
@@ -51,10 +51,10 @@ function Dashboard() {
                 </div>
                 <div className='cardholder1'>
                     {
-                        gradeArray.map((obj,idx)=>{
-                            return(
-                                <Link to={`/Units/${obj.grade}/${obj.subject}?${searchParams}&grade=${obj.number}`} style={{textDecoration:'none'}}>
-                                    <Cards text={obj.grade} color={obj.color}/>
+                        gradeArray.map((obj, idx) => {
+                            return (
+                                <Link to={`/Units/${obj.grade}/${obj.subject}?${searchParams}&grade=${obj.number}`} style={{ textDecoration: 'none' }}>
+                                    <Cards text={obj.grade} color={obj.color} />
                                 </Link>
                             )
                         })
