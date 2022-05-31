@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/AllGamesDemo/static/css/main.65dadbe8.css",
-    "main.js": "/AllGamesDemo/static/js/main.41464493.js",
-    "static/media/Dashboard.svg": "/AllGamesDemo/static/media/Dashboard.101e0e6a8f5f587c4e20.svg",
-    "static/media/info.svg": "/AllGamesDemo/static/media/info.14acd904ee4be45135df90a679d0b978.svg",
-    "static/media/iparhailog.svg": "/AllGamesDemo/static/media/iparhailog.a5b1e1d4e11cbd0bd08f01ed1b7c3083.svg",
-    "static/media/cross.svg": "/AllGamesDemo/static/media/cross.6f69ddc7ae251550aba62b033c468029.svg",
-    "static/media/iparhai.svg": "/AllGamesDemo/static/media/iparhai.8698277d3bca3c29d7b2d179df7a9cbe.svg",
-    "static/media/background.svg": "/AllGamesDemo/static/media/background.ae90f8d57146444b8752.svg",
+    "main.css": "/AllGamesDemo/static/css/main.926ebec2.css",
+    "main.js": "/AllGamesDemo/static/js/main.d0e5c575.js",
+    "static/media/Dashboard.svg": "/AllGamesDemo/static/media/Dashboard.f54860fd8cb51d452fa6.svg",
+    "static/media/info.svg": "/AllGamesDemo/static/media/info.a62e8c068fcb03291577f208f81db419.svg",
+    "static/media/iparhailog.svg": "/AllGamesDemo/static/media/iparhailog.86f833600a8b3b4fc450f029009f8665.svg",
+    "static/media/cross.svg": "/AllGamesDemo/static/media/cross.225bded9468443b3a4146e221221af83.svg",
+    "static/media/iparhai.svg": "/AllGamesDemo/static/media/iparhai.21d88bc972a46b27316c146204217aaf.svg",
+    "static/media/background.svg": "/AllGamesDemo/static/media/background.d86564ef04bffc96fdef.svg",
     "index.html": "/AllGamesDemo/index.html",
-    "main.65dadbe8.css.map": "/AllGamesDemo/static/css/main.65dadbe8.css.map",
-    "main.41464493.js.map": "/AllGamesDemo/static/js/main.41464493.js.map"
+    "main.926ebec2.css.map": "/AllGamesDemo/static/css/main.926ebec2.css.map",
+    "main.d0e5c575.js.map": "/AllGamesDemo/static/js/main.d0e5c575.js.map"
   },
   "entrypoints": [
-    "static/css/main.65dadbe8.css",
-    "static/js/main.41464493.js"
+    "static/css/main.926ebec2.css",
+    "static/js/main.d0e5c575.js"
   ]
 }
