@@ -30,7 +30,7 @@ export default function Units({data}) {
                         <li><img src={iparhai} /></li>
                         <li className='subtitles'>
                             <h6>{obj.title} - Mathematics</h6>
-                            <p>Follow by: Single National Curriculum</p>
+                            {/* <p>Follow by: Single National Curriculum</p> */}
                         </li>
 
                         <li className='right' style={{ float: 'right' }}>

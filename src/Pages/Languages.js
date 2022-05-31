@@ -35,7 +35,7 @@ export default function Levels({data}) {
                         <li><img src={iparhai} /></li>
                         <li className='subtitles'>
                             <h6>Game Levels</h6>
-                            <p>Follow by: Single National Curriculum</p>
+                            {/* <p>Follow by: Single National Curriculum</p> */}
                         </li>
 
                         <li className='right' style={{ float: 'right' }}>
