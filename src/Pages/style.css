@@ -18,15 +18,35 @@
     width : 30%
 }
 .tagline{
-    color : grey
+    color : grey;
+    /* border : 1px solid red */
 }
 .form{
     width : 40vw;
     text-align: left;
     margin : 0 auto;
+    /* border : 1px solid red */
 }
 .form label{
     margin : 20px 0;
+}
+.error__msg{
+    border : 1px solid rgb(248, 139, 139);
+    border-radius: 15px;
+    background-color: rgba(247, 134, 134, 0.97);
+    padding: 15px;
+    width: 60%;
+    margin: 5% auto;
+    margin-bottom: 0%;
+    color : white;
+    font-weight: 900;
+    letter-spacing: 2px;
+    position: relative;
+}
+.cross__btn{
+    position: absolute;
+    top : 10%;
+    right : 2%
 }
 .row1{
     width:40vw;

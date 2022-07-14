@@ -50,15 +50,15 @@ export default function Levels({data}) {
                     searchgrade.get("grade") == '2'?
                     difficulty.map((obj,idx)=>{
                         return(
-                            <a href={data[parseInt(searchIndex.get("gameName"))+3].link} target='_blank' style={{textDecoration:'none',margin:'1%'}}>
+                            <a href={data[parseInt(searchIndex.get("gameName"))+2].link} target='_blank' style={{textDecoration:'none',margin:'1%'}}>
                                 <Card text={obj.level} color={obj.color}/>
                             </a>
                         )
                     })
                     // 'NULL'
-                    :
-                    searchgrade.get("grade") == '5'?
-                        <UnitCard Key={2} color='#f00' text='Comming soon' description='In progress'/>
+                    // :
+                    // searchgrade.get("grade") == '5'?
+                    //     <UnitCard Key={2} color='#f00' text='Comming soon' description='In progress'/>
                     :
                     difficulty.map((obj,idx)=>{
                         return(
