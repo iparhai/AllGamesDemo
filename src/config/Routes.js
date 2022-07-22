@@ -21,14 +21,14 @@ const data = [
     { gameName: 'cn_1_9', title: 'Grade2', unit: 'Unit 2.1', descrip: 'Addition of One digit', color: '#528cce', link: 'https://shaffan-nu.github.io/iparhaiMathGame/?limit=5&dif=b' },
     // grade3 start
     { gameName: 'numberline', title: 'Grade3', unit: 'Unit 3.1', descrip: 'Number Line', color: '#528cce' },
-    { gameName: 'evennodd', title: 'Grade3', unit: 'Unit 3.2', descrip: 'Even Odd Numbers', color: '#528cce' },
-    { gameName: 'ascending', title: 'Grade3', unit: 'Unit 3.3', descrip: 'Even Odd Numbers', color: '#528cce' },
+    { gameName: 'evenodd', title: 'Grade3', unit: 'Unit 3.2', descrip: 'Even Odd Numbers', color: '#528cce' },
+    { gameName: 'ascending', title: 'Grade3', unit: 'Unit 3.3', descrip: 'Ascending Numbers', color: '#528cce' },
     // grade4 start
     { gameName: 'pvm', title: 'Grade4', unit: 'Unit 4.2', descrip: 'Place Value', color: '#9a9f69' }, 
     { gameName: 'anu6d', title: 'Grade4', unit: 'Unit 4.2', descrip: 'Addition Using Carry', color: '#9a9f69' }, 
-    { gameName: 'pac', title: 'Grade4', unit: 'Unit 4.3', descrip: 'Prime and Composite', color: '#9a9f69' }, 
+    // { gameName: 'pac', title: 'Grade4', unit: 'Unit 4.3', descrip: 'Prime and Composite', color: '#9a9f69' }, 
     // grade5 start
-    { gameName: 'tally', title: 'Grade5', unit: 'Unit 5.1', descrip: 'Tally Method', color: '#82ac66' },
+    // { gameName: 'tally', title: 'Grade5', unit: 'Unit 5.1', descrip: 'Tally Method', color: '#82ac66' },
     { gameName: 'angles', title: 'Grade5', unit: 'Unit 5.2', descrip: 'Making Angles', color: '#82ac66' },
     { gameName: 'con', title: 'Grade5', unit: 'Unit 5.3', descrip: 'Missing number', color: '#82ac66' },
 ]
