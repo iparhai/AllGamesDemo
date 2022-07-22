@@ -22,7 +22,6 @@ export default function Levels({ data }) {
     const Languages = [
         { lang: 'u', Language: 'Urdu', color: '#528cce', subject: 'Maths' },
         { lang: 'e', Language: 'English', color: '#82ac66', subject: 'Maths' },
-        { lang: 'a', Language: 'Arabic', color: '#d48181', subject: 'Maths' },
         { lang: 'p', Language: 'Pashto', color: '#d48181', subject: 'Maths' },
         { lang: 'k', Language: 'Korean', color: '#528cce', subject: 'Maths' },
     ]
@@ -58,6 +57,28 @@ export default function Levels({ data }) {
                             })
                             :
                             searchgrade.get("grade") == '1' ?
+                                Languages.filter(function (Languages) {
+                                    return Languages.lang == 'e'
+                                }).map((obj, idx) => {
+                                    return (
+                                        <a href={`https://iparhai.github.io/dynamicGame/?${searchParams}&lang=${obj.lang}`} target='_blank' style={{ textDecoration: 'none', margin: '1%' }}>
+                                            <Card text={obj.Language} color={obj.color} />
+                                        </a>
+                                    )
+                                })
+                            :
+                            searchgrade.get("grade") == '3' ?
+                                Languages.filter(function (Languages) {
+                                    return Languages.lang == 'e'
+                                }).map((obj, idx) => {
+                                    return (
+                                        <a href={`https://iparhai.github.io/dynamicGame/?${searchParams}&lang=${obj.lang}`} target='_blank' style={{ textDecoration: 'none', margin: '1%' }}>
+                                            <Card text={obj.Language} color={obj.color} />
+                                        </a>
+                                    )
+                                })
+                            :
+                            searchgrade.get("grade") == '4' ?
                                 Languages.filter(function (Languages) {
                                     return Languages.lang == 'e'
                                 }).map((obj, idx) => {
